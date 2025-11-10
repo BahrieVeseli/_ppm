@@ -13,8 +13,8 @@ const firebaseConfig = {
   measurementId: "G-DWT75Z2EWV",
 };
 
-// 🔥 Inicializo Firebase
+// Inicializo aplikacionin Firebase
 const app = initializeApp(firebaseConfig);
 
-// ✅ Inicializo Auth (për login/signup)
+
 export const auth = getAuth(app);
